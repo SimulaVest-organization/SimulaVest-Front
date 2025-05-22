@@ -57,13 +57,17 @@ export default function Home() {
             <div className="mb-12">
               <h2 className="text-xl font-medium mb-6">Selecione a matéria</h2>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-6">
-                <SubjectIcon name="Matemática" icon="/math-icon.png" formula="1x-(2-5y+2x)=(x+5)/5" />
-                <SubjectIcon name="Física" icon="/physics-icon.png" formula="PV=nRT" />
-                <SubjectIcon name="Química" icon="/chemistry-icon.png" formula="H2O" />
-                <SubjectIcon name="Biologia" icon="/biology-icon.png" formula="DNA" />
-                <SubjectIcon name="História" icon="/history-icon.png" />
-                <SubjectIcon name="Geografia" icon="/geography-icon.png" />
-                <SubjectIcon name="Filosofia" icon="/philosophy-icon.png" />
+                <SubjectIcon name="Matemática" icon="/matematica.png"/>
+                <SubjectIcon name="Física" icon="/fisica.png"/>
+                <SubjectIcon name="Química" icon="/quimica.png"/>
+                <SubjectIcon name="Biologia" icon="/biologia.png"/>
+                <SubjectIcon name="Língua Portuguesa" icon="/portugues.png"/>
+                <SubjectIcon name="Literatura" icon="/literatura.png"/>
+                <SubjectIcon name="Inglês" icon="/ingles.png"/>
+                <SubjectIcon name="História" icon="/historia.png"/>
+                <SubjectIcon name="Geografia" icon="/geografia.png"/>
+                <SubjectIcon name="Filosofia" icon="/filosofia.png"/>
+                <SubjectIcon name="Sociologia" icon="/sociologia.png"/>
               </div>
             </div>
 

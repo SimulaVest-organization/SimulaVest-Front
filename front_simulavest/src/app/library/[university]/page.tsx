@@ -130,19 +130,19 @@ export default function UniversityExamPage({ params }: { params: { university: s
           <div className="w-full md:w-1/5">
             <div className="space-y-4">
               <div className="flex items-center gap-3 p-2 rounded-lg bg-gray-100 cursor-pointer">
-                <Image src="/images/brazil-flag.png" alt="Brasil" width={32} height={24} className="rounded" />
+                <Image src="/Brazil-flag.svg" alt="Brasil" width={32} height={24} className="rounded" />
                 <span>Brasil</span>
               </div>
               <div className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100 cursor-pointer">
-                <Image src="/images/usa-flag.png" alt="EUA" width={32} height={24} className="rounded" />
+                <Image src="/USA-flag.svg" alt="EUA" width={32} height={24} className="rounded" />
                 <span>EUA</span>
               </div>
               <div className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100 cursor-pointer">
-                <Image src="/images/canada-flag.png" alt="Canadá" width={32} height={24} className="rounded" />
+                <Image src="/Canada-flag.svg" alt="Canadá" width={32} height={24} className="rounded" />
                 <span>Canadá</span>
               </div>
               <div className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100 cursor-pointer">
-                <Image src="/images/europe-flag.png" alt="Europa" width={32} height={24} className="rounded" />
+                <Image src="/Europe-flag.svg" alt="Europa" width={32} height={24} className="rounded" />
                 <span>Europa</span>
               </div>
             </div>

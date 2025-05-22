@@ -9,16 +9,55 @@ export default function LibraryPage() {
 
   // Universities data
   const universities = [
-    { name: "Fuvest", logo: "/images/fuvest-logo.png", fullName: "Universidade de São Paulo" },
-    { name: "UFPA", logo: "/images/ufpa-logo.png", fullName: "Universidade Federal do Pará" },
-    { name: "Unesp", logo: "/images/unesp-logo.png", fullName: "Universidade Estadual Paulista" },
-    { name: "Unicamp", logo: "/images/unicamp-logo.png", fullName: "Universidade Estadual de Campinas" },
-    { name: "UFPR", logo: "/images/ufpr-logo.png", fullName: "Universidade Federal do Paraná" },
-    { name: "UEA", logo: "/images/uea-logo.png", fullName: "Universidade do Estado do Amazonas" },
-    { name: "UEPA", logo: "/images/uepa-logo.png", fullName: "Universidade Estadual do Pará" },
-    { name: "UERJ", logo: "/images/uerj-logo.png", fullName: "Universidade Estadual do Rio de Janeiro" },
-    { name: "UNEB", logo: "/images/uneb-logo.png", fullName: "Universidade do Estado da Bahia" },
-    { name: "UFSC", logo: "/images/ufsc-logo.png", fullName: "Universidade Federal de Santa Catarina" },
+    { name: "FUVEST", logo: "/fuvest.svg", fullName: "Universidade de São Paulo" },
+    { name: "UFPA", logo: "/ufpa.svg", fullName: "Universidade Federal do Pará" },
+    { name: "UNESP", logo: "/unesp.svg", fullName: "Universidade Estadual Paulista" },
+    { name: "UNICAMP", logo: "/unicamp.svg", fullName: "Universidade Estadual de Campinas" },
+    { name: "UFPR", logo: "/ufpr.png", fullName: "Universidade Federal do Paraná" },
+    { name: "UEA", logo: "/uea.png", fullName: "Universidade do Estado do Amazonas" },
+    { name: "UEPA", logo: "/uepa.jpg", fullName: "Universidade Estadual do Pará" },
+    { name: "UNEB", logo: "/uneb.svg", fullName: "Universidade do Estado da Bahia" },
+    { name: "UFSC", logo: "/ufsc.svg", fullName: "Universidade Federal de Santa Catarina" },
+    { name: "ENEM", logo: "/enem.webp", fullName: "Exame Nacional do Ensino Médio" },
+    { name: "EST", logo: "/est.svg", fullName: "Faculdade EST" },
+    { name: "FAMERP", logo: "/famerp.svg", fullName: "Faculdade de Medicina de São José do Rio Preto" },
+    { name: "FDV", logo: "/fdv.svg", fullName: "Instituto de Ensino Superior de Vitória" },
+    { name: "IME", logo: "/ime.svg", fullName: "Instituto Militar de Engenharia" },
+    { name: "ITA", logo: "/ita.jpg", fullName: "Instituto Tecnologico de Aeronáutica" },
+    { name: "MACKENZIE", logo: "/mackenzie.svg", fullName: "Universidade Presbiteriana Mackenzie" },
+    { name: "SÃO LEOPOLDO MANDIC", logo: "/mandic.webp", fullName: "A Faculdade de Medicina e Odontologia São Leopoldo Mandic" },
+    { name: "PUC CAMPINAS", logo: "/Puc-Camp.png", fullName: "Pontifícia Universidade Católica de Campinas" },
+    { name: "PUC GOIÁS", logo: "/Puc-Goias.png", fullName: "Pontifícia Universidade Católica de Goiás" },
+    { name: "PUC MINAS", logo: "/Puc-minas.png", fullName: "Pontifícia Universidade Católica de Minas Gerais" },
+    { name: "PUC RIO GRANDE DO SUL", logo: "/PUC-RS.png", fullName: "Pontifícia Universidade Católica do Rio Grande do Sul" },
+    { name: "PUC SÃO PAULO", logo: "/Puc-SP.svg", fullName: "Pontifícia Universidade Católica de São Paulo" },
+    { name: "UEM", logo: "/uem.jpg", fullName: "Universidade Estadual de Maringá" },
+    { name: "UENF", logo: "/uenf.jpg", fullName: "Universidade Estadual do Norte Fluminense Darcy Ribeiro" },
+    { name: "UERJ", logo: "/uerj.png", fullName: "Universidade do Estado do Rio de Janeiro" },
+    { name: "UFABC", logo: "/ufabc.png", fullName: "Universidade Federal do ABC" },
+    { name: "UFBA", logo: "/Ufba.png", fullName: "Universidade Federal da Bahia" },
+    { name: "UFC", logo: "/Ufc.png", fullName: "Universidade Federal do Ceará" },
+    { name: "UFCSPA", logo: "/ufcspa.jpg", fullName: "Universidade Federal de Ciências da Saúde de Porto Alegre" },
+    { name: "UFF", logo: "/uff.png", fullName: "Universidade Federal Fluminense" },
+    { name: "UFG", logo: "/Ufg.png", fullName: "Universidade Federal de Goiás Campus Samambaia" },
+    { name: "UFJF", logo: "/ufjf.png", fullName: "Universidade Federal de Juiz de Fora" },
+    { name: "UFLA", logo: "/ufla.svg", fullName: "Universidade Federal de Lavras" },
+    { name: "UFMG", logo: "/Ufmg.svg", fullName: "Universidade Federal de Minas Gerais" },
+    { name: "UFMS", logo: "/Ufms.svg", fullName: "Universidade Federal de Mato Grosso do Sul" },
+    { name: "UFPA", logo: "/ufpa.svg", fullName: "Universidade Federal do Pará" },
+    { name: "UFPE", logo: "/Ufpe.svg", fullName: "Universidade Federal de Pernambuco" },
+    { name: "UFRGS", logo: "/Ufrgs.svg", fullName: "Universidade Federal do Rio Grande do Sul" },
+    { name: "UFRJ", logo: "/ufrj.svg", fullName: "Universidade Federal do Rio de Janeiro" },
+    { name: "UFRN", logo: "/Ufrn.PNG", fullName: "Universidade Federal do Ceará" },
+    { name: "UFS", logo: "/ufs.jpg", fullName: "Universidade Federal de Ciências da Saúde de Porto Alegre" },
+    { name: "UFSC", logo: "/UFSC.svg", fullName: "Universidade Federal Fluminense" },
+    { name: "UFU", logo: "/ufu.png", fullName: "Universidade Federal de Goiás Campus Samambaia" },
+    { name: "UFV", logo: "/Ufv.png", fullName: "Universidade Federal de Juiz de Fora" },
+    { name: "UNEB", logo: "/uneb.svg", fullName: "Universidade Federal de Lavras" },
+    { name: "UNESP", logo: "/Unesp.svg", fullName: "Universidade Federal de Minas Gerais" },
+    { name: "UNICAMP", logo: "/unicamp.svg", fullName: "Universidade Federal de Mato Grosso do Sul" },
+    { name: "UNICHRISTUS", logo: "/unichristus.svg", fullName: "Universidade Federal do Pará" },
+    { name: "UNIFESP", logo: "/Unifesp.svg", fullName: "Universidade Federal do Rio Grande do Sul" },
   ]
 
   return (
@@ -33,19 +72,19 @@ export default function LibraryPage() {
           <div className="w-full md:w-1/5">
             <div className="space-y-4 mb-8">
               <div className="flex items-center gap-3 p-2 rounded-lg bg-gray-100 cursor-pointer">
-                <Image src="/images/brazil-flag.png" alt="Brasil" width={32} height={24} className="rounded" />
+                <Image src="/Brazil-flag.svg" alt="Brasil" width={32} height={24} className="rounded" />
                 <span>Brasil</span>
               </div>
               <div className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100 cursor-pointer">
-                <Image src="/images/usa-flag.png" alt="EUA" width={32} height={24} className="rounded" />
+                <Image src="/USA-flag.svg" alt="EUA" width={32} height={24} className="rounded" />
                 <span>EUA</span>
               </div>
               <div className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100 cursor-pointer">
-                <Image src="/images/canada-flag.png" alt="Canadá" width={32} height={24} className="rounded" />
+                <Image src="/Canada-flag.svg" alt="Canadá" width={32} height={24} className="rounded" />
                 <span>Canadá</span>
               </div>
               <div className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100 cursor-pointer">
-                <Image src="/images/europe-flag.png" alt="Europa" width={32} height={24} className="rounded" />
+                <Image src="/Europe-flag.svg" alt="Europa" width={32} height={24} className="rounded" />
                 <span>Europa</span>
               </div>
             </div>
