@@ -13,7 +13,7 @@ export default function LoginPage() {
 
         <div className="text-center mb-8">
           <h1 className="text-2xl font-bold mb-2">BEM VINDO!</h1>
-          <p className="text-gray-600">Entre com</p>
+          <p className="text-gray-600">Se logue com uma das plataformas: </p>
         </div>
 
         <div className="space-y-4">

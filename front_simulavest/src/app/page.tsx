@@ -73,12 +73,22 @@ export default function Home() {
 
             {/* Statistics */}
             <div>
-              <h2 className="text-xl font-medium mb-6">Conheça as estatísticas</h2>
+              <h2 className="text-xl font-medium mb-6">O que mais cai no vestibular?</h2>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                 <StatCard position="1st" />
                 <StatCard position="2nd" />
                 <StatCard position="3rd" />
                 <StatCard position="4t" />
+              </div>
+            </div>
+
+            {/* About us */}
+            <div>
+              <h2 className="text-xl font-medium mb-6">Sobre nós</h2>
+              <div className="bg-gray-100 p-4 rounded-lg">
+                <p className="text-sm text-gray-700">
+                  Nossa plataforma educacional é dedicada a fornecer simulados afim de ajudar os vestibulandos a se prepararem para os vestibulares. Estamos comprometidos em oferecer uma experiência de aprendizado nova e eficaz.
+                </p>
               </div>
             </div>
           </div>
