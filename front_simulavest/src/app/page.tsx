@@ -21,23 +21,32 @@ export default function Home() {
                 </button>
               </Link>
             </div>
+            <h2 className="text-lg font-medium mb-4">Países</h2>
             <div className="space-y-4">
-              <div className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100 cursor-pointer">
-                <Image src="/Brazil-flag.svg" alt="Brasil" width={32} height={24} className="rounded" />
-                <span>Brasil</span>
-              </div>
+              <Link href="/library">
+                <div className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100 cursor-pointer">
+                  <Image src="/Brazil-flag.svg" alt="Brasil" width={32} height={24} className="rounded" />
+                  <span>Brasil</span>
+                </div>
+                </Link>
+              <Link href="/Em-DEV">
               <div className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100 cursor-pointer">
                 <Image src="/Usa-flag.svg" alt="EUA" width={32} height={24} className="rounded" />
                 <span>EUA</span>
               </div>
+              </Link>
+              <Link href="/Em-DEV">
               <div className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100 cursor-pointer">
                 <Image src="/Canada-flag.svg" alt="Canadá" width={32} height={24} className="rounded" />
                 <span>Canadá</span>
               </div>
+              </Link>
+              <Link href="/Em-DEV">
               <div className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100 cursor-pointer">
                 <Image src="/Europe-flag.svg" alt="Europa" width={32} height={24} className="rounded" />
                 <span>Europa</span>
               </div>
+              </Link>
             </div>
           </div>
 

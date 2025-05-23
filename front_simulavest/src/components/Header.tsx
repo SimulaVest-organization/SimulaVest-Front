@@ -36,20 +36,19 @@ export default function Header() {
 
   return (
     <>
-      <div className="border-b">
+      <div className="shadow-sm bg-white">
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between h-12">
+          <div className="flex items-center justify-between h-16 py-4">
             <div className="flex items-center">
               <Link href="/">
                 <div className="flex items-center">
                   <Image
-                    src="/images/logo.png"
+                    src="/Logo_semfundo.png"
                     alt="Educational Platform Logo"
-                    width={32}
-                    height={32}
+                    width={90}
+                    height={90}
                     className="mr-2"
                   />
-                  <span className="font-medium text-blue-600 hidden sm:inline">EduPrep</span>
                 </div>
               </Link>
             </div>
