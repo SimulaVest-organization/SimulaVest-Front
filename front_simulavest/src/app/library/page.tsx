@@ -51,12 +51,9 @@ export default function LibraryPage() {
     { name: "UFRJ", logo: "/ufrj.svg", fullName: "Universidade Federal do Rio de Janeiro" },
     { name: "UFRN", logo: "/Ufrn.PNG", fullName: "Universidade Federal do Ceará" },
     { name: "UFS", logo: "/ufs.jpg", fullName: "Universidade Federal de Ciências da Saúde de Porto Alegre" },
-    { name: "UFSC", logo: "/UFSC.svg", fullName: "Universidade Federal Fluminense" },
     { name: "UFU", logo: "/ufu.png", fullName: "Universidade Federal de Goiás Campus Samambaia" },
     { name: "UFV", logo: "/Ufv.png", fullName: "Universidade Federal de Juiz de Fora" },
     { name: "UNEB", logo: "/uneb.svg", fullName: "Universidade Federal de Lavras" },
-    { name: "UNESP", logo: "/Unesp.svg", fullName: "Universidade Federal de Minas Gerais" },
-    { name: "UNICAMP", logo: "/unicamp.svg", fullName: "Universidade Federal de Mato Grosso do Sul" },
     { name: "UNICHRISTUS", logo: "/unichristus.svg", fullName: "Universidade Federal do Pará" },
     { name: "UNIFESP", logo: "/Unifesp.svg", fullName: "Universidade Federal do Rio Grande do Sul" },
   ]
