@@ -2,11 +2,13 @@
 
 import type React from "react"
 
-import { useState } from "react"
+import { useState } from "react";
 import Image from "next/image"
 import Header from "@/components/Header"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Edit, BookOpen, BarChart2, Settings } from "lucide-react"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Edit, BookOpen, BarChart2, Settings } from "lucide-react";
+import { Link } from "lucide-react";
+import { Plus } from "lucide-react";
 
 export default function ProfilePage() {
   const [activeTab, setActiveTab] = useState("profile")
@@ -60,22 +62,37 @@ export default function ProfilePage() {
         <div className="flex flex-col md:flex-row gap-8">
           {/* Left sidebar - Countries */}
           <div className="w-full md:w-1/5">
+            <div className="flex justify-center mb-6">
+              <Link href="/create">
+                <button className="w-10 h-10 bg-blue-600 hover:bg-blue-700 rounded-full flex items-center justify-center text-white shadow-md">
+                  <Plus className="w-6 h-6" />
+                </button>
+              </Link>
+            </div>
             <div className="space-y-4">
               <div className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100 cursor-pointer">
-                <Image src="/Brazil-flag.svg" alt="Brasil" width={32} height={24} className="rounded" />
-                <span>Brasil</span>
+                <Link href="/library">
+                  <Image src="/Brazil-flag.svg" alt="Brasil" width={32} height={24} className="rounded" />
+                  <span>Brasil</span>
+                </Link>
               </div>
               <div className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100 cursor-pointer">
-                <Image src="/USA-flag.svg" alt="EUA" width={32} height={24} className="rounded" />
-                <span>EUA</span>
+                <Link href="/Em-DEV">
+                  <Image src="/USA-flag.svg" alt="EUA" width={32} height={24} className="rounded" />
+                  <span>EUA</span>
+                </Link>
               </div>
               <div className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100 cursor-pointer">
-                <Image src="/Canada-flag.svg" alt="Canadá" width={32} height={24} className="rounded" />
-                <span>Canadá</span>
+                <Link href="/Em-DEV">
+                  <Image src="/Canada-flag.svg" alt="Canadá" width={32} height={24} className="rounded" />
+                  <span>Canadá</span>
+                </Link>
               </div>
               <div className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100 cursor-pointer">
-                <Image src="/Europe-flag.svg" alt="Europa" width={32} height={24} className="rounded" />
-                <span>Europa</span>
+                <Link href="/Em-DEV">
+                  <Image src="/Europe-flag.svg" alt="Europa" width={32} height={24} className="rounded" />
+                  <span>Europa</span>
+                </Link>
               </div>
             </div>
           </div>
