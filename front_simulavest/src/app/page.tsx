@@ -21,7 +21,6 @@ export default function Home() {
                 </button>
               </Link>
             </div>
-            <h2 className="text-lg font-medium mb-4">Países</h2>
             <div className="space-y-4">
               <Link href="/library">
                 <div className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100 cursor-pointer">
